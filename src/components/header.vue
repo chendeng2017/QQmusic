@@ -11,16 +11,16 @@
             <img src="../public/icons/avatar.jpg" alt="">
             <transition name="fold">
                 <div class="intr1" v-show="intrShow">
-                    <h1>余秀婷</h1>
+                    <h1>陈 登</h1>
                     <h2>求职意向 :</h2>
                     <p>web前端工程师</p>
                     <h2>个人信息 ：</h2>
-                    <p>东华理工大学(本科)<br/><br/>软件工程(2018年毕业)<br/><br/>15907094249<br/><br/>916356730@qq.com</p>
+                    <p>武汉职业技术学院<br/><br/>物联网工程<br/><br/>17671777748<br/><br/>984740602@qq.com</p>
                     <br/><br/>
                     <h2>技术栈 :</h2>
                     <h3>【前端】 :</h3>
                     <p class="get">HTML / HTML5 &nbsp&nbsp&nbsp CSS &nbsp&nbsp&nbsp SASS &nbsp&nbsp&nbsp AJAX</p>
-                    <p class="get">JavaScript(ES6,ES5) &nbsp&nbsp&nbsp jQuery &nbsp&nbsp&nbsp Babel</p>
+                    <p class="get">JavaScript(ES6,ES5) &nbsp&nbsp&nbsp jQuery &nbsp&nbsp&nbsp Bootstrap</p>
                     <p class="get">Vue.JS &nbsp&nbsp&nbsp 微信小程序</p>
                     <h3>【后端】 :</h3>
                     <p class="get1">Node.js (express)</p>
@@ -124,7 +124,7 @@ export default {
     data () {
         return {
             intrShow: false,
-            username: '余秀婷'
+            username: '陈 登'
         }
     },
     components: {

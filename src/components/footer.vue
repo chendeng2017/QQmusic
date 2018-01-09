@@ -18,7 +18,7 @@ export default {
     bottom: 0;
     width: 100%;
     height: 10rem;
-    background-color: #31C37C;
+    background-color: red;
     z-index:1.2;
 }
 
